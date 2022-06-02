@@ -8,4 +8,4 @@ newarray.push(arr.slice(i,i + size));
 return newarray;
 };
 
-
+
