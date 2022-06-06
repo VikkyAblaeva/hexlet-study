@@ -6,4 +6,4 @@
 
 Иллюстрация:
 
-![Image alt](https://github.com/VikkyAblaeva/hexlet-study/raw/main/img/face.jpg)
+![Image alt](https://github.com/VikkyAblaeva/hexlet-study/blob/main/Book/img/face.png)
