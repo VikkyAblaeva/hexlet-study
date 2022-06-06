@@ -1,3 +1,0 @@
-Bubblesort
-const bubblesort = (coll) => {
-let stepscount = coll.length - 1;
