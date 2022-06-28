@@ -31,4 +31,3 @@ const bubbleSort = (coll) => {
 };
 
 console.log(bubbleSort([3, 2, 10, -2, 0])); // => [ -2, 0, 2, 3, 10 ]
-
