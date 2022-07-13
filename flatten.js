@@ -20,3 +20,8 @@ const flatten = (arr) => {
   };
 export default flatten;
   
+//Через Spread:
+const flatten = (list) => list.reduce((acc, element) => {
+  const result = (Array.isArray(element) ? [...acc, ...flatten(element)] : [...acc, element]);
+  return result;
+}, []);
