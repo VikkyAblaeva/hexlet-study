@@ -13,4 +13,10 @@ export const flatten = (coll) => {
     }
     return result;
   };
+
+//Разворачиваем любой уровень вложенности:
+const flatten = (arr) => {
+    return arr.reduce((acc, item) => acc.concat(Array.isArray(item) ? flatten(item) : item), []);
+  };
+export default flatten;
   
